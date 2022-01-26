@@ -139,7 +139,7 @@ header {
     background: rgb(27, 27, 27);
     height: 300px;
     width: 100%;
-    padding: 8px;
+    padding: 10px;
 }
 
 .card-header {
@@ -176,4 +176,25 @@ header {
 .card-header .dotmenu {
     color: rgb(105, 105, 105);
     font-size: 12px;
+}
+
+.awards {
+    padding: 8px 0;
+    height: auto;
+    display: flex;
+    color: rgb(105, 105, 105);
+    font-size: 12px;
+    gap: 5px;
+    align-items: center;
+}
+
+.awards img {
+    height: auto;
+    width: 15px;
+}
+
+.awards .awards-images {
+    display: flex;
+    gap: 5px;
+    align-items: center;
 }

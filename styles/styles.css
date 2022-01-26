@@ -90,3 +90,32 @@ header {
     padding-left: 10px;
     width: 100%;
 }
+
+/* Home Popular Bar */
+
+.home-popular-bar {
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.home-popular-bar .home {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    height: auto;
+    width: 80px;
+    border-bottom: solid 2px rgb(2, 73, 165);
+    padding-bottom: 10px;
+}
+
+.home-popular-bar .popular {
+    text-align: center;
+    color: rgb(105, 105, 105);
+    font-size: 16px;
+    height: auto;
+    width: 80px;
+    padding-bottom: 10px;
+    border-bottom: solid 2px rgb(24, 22, 22);
+}

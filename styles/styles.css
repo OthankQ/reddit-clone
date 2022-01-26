@@ -121,3 +121,59 @@ header {
     padding-bottom: 10px;
     border-bottom: solid 2px rgb(24, 22, 22);
 }
+
+/* Content */
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: rgb(27, 27, 27);
+    height: 300px;
+    width: 100%;
+    padding: 8px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-subreddit-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.subreddit-logo {
+    height: 33px;
+}
+
+.card-header .subreddit-name {
+    color: white;
+    font-size: 14px;
+}
+
+.card-header .username {
+    color: rgb(105, 105, 105);
+    font-size: 12px;
+}
+
+.card-header img {
+    height: auto;
+    width: 33px;
+}
+
+.card-header .dotmenu {
+    color: rgb(105, 105, 105);
+    font-size: 12px;
+}

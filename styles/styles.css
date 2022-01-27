@@ -268,12 +268,21 @@ header {
     gap: 18px;
 }
 
+.card-ui-bar p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
 .voting-ui-cluster, .comment-ui-cluster, .share-ui-cluster, .award-ui {
     display: flex;
     gap: 5px;
     align-items: center;
     justify-content: center;
     flex: 2;
+}
+
+.share-ui-cluster {
+    justify-content: flex-end;
 }
 
 .upvote-button {
@@ -302,9 +311,6 @@ header {
     flex: 1;
 }
 
-.share-text p {
-    font-weight: 500;
-}
 
 .award-ui {
     display: flex;

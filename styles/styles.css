@@ -12,7 +12,6 @@ p {
     margin: 0;
 }
 
-
 .phone-screen {
     width: 360px;
     height: 780px;
@@ -133,8 +132,12 @@ header {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    height: 568px;
-    overflow: hidden;
+    height: 594px;
+    overflow: scroll;
+}
+
+.content::-webkit-scrollbar {
+    display: none;
 }
 
 .card-container {
@@ -255,8 +258,6 @@ header {
     margin: 0;
 }
 
-
-
 /* Card UI Bar*/
 
 .card-ui-bar {
@@ -264,6 +265,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 18px;
 }
 
 .voting-ui-cluster, .comment-ui-cluster, .share-ui-cluster, .award-ui {
@@ -271,10 +273,43 @@ header {
     gap: 5px;
     align-items: center;
     justify-content: center;
+    flex: 2;
+}
+
+.upvote-button {
+    flex: 1;
+}
+
+.vote-count {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.downvote-button {
+    flex: 1;
+}
+
+.comment-button {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.comment-count {
+    display: flex;
+    justify-content: center;
+    flex: 1;
 }
 
 .share-text p {
     font-weight: 500;
+}
+
+.award-ui {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
 }
 
 /* Footer */
@@ -288,6 +323,6 @@ footer {
 }
 
 .footer-container {
-
+    
 }
 

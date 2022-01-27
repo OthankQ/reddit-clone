@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 50px 0;
     font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 p {
@@ -133,6 +134,7 @@ header {
     flex-direction: column;
     gap: 10px;
     height: 568px;
+    overflow: hidden;
 }
 
 .card-container {
@@ -209,6 +211,40 @@ header {
     align-items: center;
 }
 
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.img-content {
+    height: 60px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.img-content img {
+    width: 90px;
+    height: auto;
+    border-radius: 5px;
+    grid-column-start: 1;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.link-overlay {
+    background: rgb(27, 27, 27);
+    color: #e5e3e3;
+    grid-column-start: 1;
+    grid-column-start: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    font-size: 10px;
+    padding-left: 3px;
+}
+
 .text-content {
     color: #e5e3e3;
     font-weight: 600;
@@ -218,6 +254,8 @@ header {
     padding: 0;
     margin: 0;
 }
+
+
 
 /* Card UI Bar*/
 

@@ -7,6 +7,10 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+p {
+    margin: 0;
+}
+
 
 .phone-screen {
     width: 360px;
@@ -137,9 +141,12 @@ header {
 
 .card {
     background: rgb(27, 27, 27);
-    height: 300px;
+    height: auto;
     width: 100%;
     padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .card-header {
@@ -178,8 +185,9 @@ header {
     font-size: 12px;
 }
 
+/* Awards bar */
+
 .awards {
-    padding: 8px 0;
     height: auto;
     display: flex;
     color: rgb(105, 105, 105);
@@ -208,3 +216,24 @@ header {
     padding: 0;
     margin: 0;
 }
+
+/* Card UI Bar*/
+
+.card-ui-bar {
+    color: rgb(105, 105, 105);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.voting-ui-cluster, .comment-ui-cluster, .share-ui-cluster, .award-ui {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.share-text p {
+    font-weight: 500;
+}
+

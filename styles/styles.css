@@ -281,6 +281,10 @@ header {
     flex: 2;
 }
 
+.share-ui-cluster {
+    justify-content: flex-end;
+}
+
 .upvote-button {
     flex: 1;
 }

@@ -268,6 +268,11 @@ header {
     gap: 18px;
 }
 
+.card-ui-bar p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
 .voting-ui-cluster, .comment-ui-cluster, .share-ui-cluster, .award-ui {
     display: flex;
     gap: 5px;
@@ -302,9 +307,6 @@ header {
     flex: 1;
 }
 
-.share-text p {
-    font-weight: 500;
-}
 
 .award-ui {
     display: flex;
